@@ -423,7 +423,7 @@ if st.session_state.page == 2:
         if ok_btn:
             wb = load_workbook("userData.xlsx")
             ws = wb["境外津貼"]
-            if st.session_state.lclass == "境外" or st.session_state.atype == "other":
+            if st.session_state.lclass == "境外":
                 for row in range(2, ws.max_row):
                     cell = f"C{row}"
                     if ws[cell].value == 0:
