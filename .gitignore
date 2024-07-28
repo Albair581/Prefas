@@ -1,0 +1,3 @@
+backup/*
+stored_credentials.json
+__pycache__/
