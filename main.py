@@ -404,11 +404,11 @@ if st.session_state.page == 2:
             abtype = st.selectbox("請假類別", 
                                 ["特休", "境外", "病假", "事假", "喪假", "婚假", "生育假"])
 
-        absdate = st.date_input("請假開始日期", value=datetime.now().date())
+        absdate = st.date_input("請假開始日期")
         abstime = st.time_input("請假開始小時 (24時制)")
         abstime = str(abstime)
 
-        abedate = st.date_input("請假結束日期", value=datetime.now().date())
+        abedate = st.date_input("請假結束日期")
         abetime = st.time_input("請假結束小時 (24時制)")
         abetime = str(abetime)
 
