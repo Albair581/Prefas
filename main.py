@@ -404,6 +404,8 @@ if st.session_state.page == 2:
             abtype = st.selectbox("請假類別", 
                                 ["特休", "境外", "病假", "事假", "喪假", "婚假", "生育假"])
 
+        st.write("月份英文對照")
+        st.write("Januarary: 一月, Februrary: 二月, March:三月, April:四月, May:五月, June:六月, July:七月, August:八月, September:九月, October:十月, November:十一月, December:十二月")
         absdate = st.date_input("請假開始日期")
         abstime = st.time_input("請假開始小時 (24時制)")
         abstime = str(abstime)
