@@ -1,0 +1,5 @@
+backup/*
+stored_credentials.json
+__pycache__/
+secrets.toml
+
